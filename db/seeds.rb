@@ -16,5 +16,3 @@ drink['drinks'].each do |ingredient|
   ingredient = Ingredient.create(name: ingredient['strIngredient1'])
   puts "#{ingredient.name}"
 end
-
-# puts "#{user['name']} - #{user['bio']}"
